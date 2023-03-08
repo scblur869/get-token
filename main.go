@@ -27,18 +27,6 @@ func printUsage() {
 
 }
 
-/*
-func createFolderFile() {
-
-	e := ioutil.WriteFile(user.HomeDir+"/.escli/config.json", credsFile, 0644)
-	if e != nil {
-		panic(e)
-	}
-	fmt.Println("config file written..")
-
-}
-*/
-
 func main() {
 	clientID := flag.String("client-id", "ASXXXTMCDDWMDYYY6ZZZ", "ClienID of the IAM User")
 	clientSecret := flag.String("client-secret", "f345j13hrl3jkff3kjfq;l3j34t", "Client Secret")
